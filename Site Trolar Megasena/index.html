@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+
+    <link rel="shortcut icon" type="image/x-icon" href="./pasta/caixa.ico" />
+
+    <title>LoteriasCaixaMegasenaDaTrolagem</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+
+
+</head>
+
+
+
+
+
+
+
+<style>
+
+    </style>
+
+
+<body>
+
+
+
+
+
+    <img alt="" src="./pasta/imagem1.png" />
+
+    
+   </body>
+   
+<body>
+
+
+<script>
+    window.alert("VÁ ATÉ O FINAL DA PÁGINA E CONFIGURE OS RESULTADOS DO SORTEIO")
+    //var concurso = ""(window.prompt('Digite o número do concurso'))
+    //var dia = Number(window.prompt('Digite o dia do concurso'))
+   //   var ano = Number(window.prompt('Digite o ano do concurso'))
+  //  document.write(" Concurso  " + a + "("+b+"/"+c+"/"+d+")"
+  
+
+    function trolar(){
+            var concurso = window.document.querySelector('input#txconcurso')
+            var dia = window.document.querySelector('input#txdia')
+            var mes = window.document.querySelector('input#txmes')
+            var ano = window.document.querySelector('input#txano')
+         
+            var concurso1 = Number(concurso.value)
+            var dia1 = Number(dia.value)
+            var a = "0"
+            var dia2
+              if (dia1 >0<10){
+               dia2 = a+dia1
+         } if (dia1 >9 ) { dia2 = dia1 }
+
+            var mes1 = Number(mes.value)
+
+            var mes2
+              if (mes1 >0<10){
+                mes2 = a+mes1;
+         } if (mes1 >9 ) { mes2 = mes1 }
+0
+            var ano1 = Number(ano.value)
+            
+    
+         // res.innerHTML = 'A Soma entre ${n1} e ${n2} é igual a ${s}'
+                          
+    
+ //document.write ('Concurso'+ concurso1 +' '+ dia1+"/"+mes1+'"/'+ano1)
+
+ //document.write ('Concurso'+ concurso +' '+ dia+"/"+mes+'"/'+ano)
+
+    res.innerHTML = 'Concurso '+ concurso1 +' '+ dia2+"/"+mes2+'/'+ano1
+}
+
+
+function trolar1(){
+            var d1 = window.document.querySelector('input#txd1')
+            var d2 = window.document.querySelector('input#txd2')       
+            var d3 = window.document.querySelector('input#txd3')
+            var d4 = window.document.querySelector('input#txd4')
+            var d5 = window.document.querySelector('input#txd5')
+            var d6 = window.document.querySelector('input#txd6')
+            var d11 = Number(d1.value)
+            var d22 = Number(d2.value)
+            var d33 = Number(d3.value)
+            var d44 = Number(d4.value)  
+            var d55 = Number(d5.value)
+            var d66 = Number(d6.value)
+            var b =  "0"
+    
+            var d111 
+              if (d11 >0<10){
+               d111 = b+d11;
+         } if (d11 >9 )
+            { d111 = d11; }
+
+         var d222 
+              if (d22 >0<10){
+               d222 = b+d22;
+         }  if (d22 >9 ) { d222 = d22 }
+
+         var d333 
+              if (d33 >0<10){
+               d333 = b+d33;
+         } if (d33 >9 ) { d333 = d33 }
+
+         var d444 
+              if (d44 >0<10){
+               d444 = b+d44;
+         } if (d44 >9 ) { d444 = d44 }
+
+         var d555
+              if (d55 >0<10){
+               d555 = b+d55;
+         } if (d55 >9 ) { d555 = d55 }
+
+         var d666 
+              if (d66 >0<10){
+               d666 = b+d66;
+         } if (d66 >9 ) { d666 = d66 }        
+         
+// res.innerHTML = 'A Soma entre ${n1} e ${n2} é igual a ${s}'
+                          
+    
+ //document.write ('Concurso'+ concurso1 +' '+ dia1+"/"+mes1+'"/'+ano1)
+
+ //document.write ('Concurso'+ concurso +' '+ dia+"/"+mes+'"/'+ano)
+
+    res1.innerHTML = ' '+ d111 +' '+ d222+" "+d333+' '+d444+" "+d555+" "+d666
+}
+</script>
+ 
+<div style="position:absolute;top:6.66in;left:0.29in;width:5.17in;line-height:0.52in;"><span style="font-style:normal;font-weight:bold;font-size:40pt;font-family:Arial;color:#0066b3"><b>Resultado</b> </span><span style="font-style:normal;font-weight:normal;font-size:48pt;font-family:Arial;color:#0066b3"> </span></SPAN><br/></div>
+
+<div style="position:absolute;top:6.99in;left:0.29in;width:5.17in;line-height:0.17in;color:#656363"><DIV style="position:relative; left:3.00in;"><span style="font-style:normal;font-weight:normal;font-size:8pt;font-family:Arial;color:#4c556c"> </span><div id='res'></div> <span style="font-style:normal;font-weight:normal;font: size 8pt;font-family:Arial;color:#0066b3"> </span><br/></SPAN></DIV></div>
+
+
+
+
+<div style="position:absolute;top:8.99in;left:0.29in;width:5.17in;line-height:0.17in;color:#ffffff">
+<DIV style="position:relative; left:0.00in;"><span style="font-style:normal;font-weight:normal;font-size:35pt;font-family:Arial;color:#4c556c">
+</span><div id='res1' style="font-style:normal;font-weight:normal;font-size:30pt;font-family:Arial"></div> 
+<span style="font-style:normal;font-weight:normal;font: size 27pt;font-family:Arial;color:#0066b3">
+</span><br/></SPAN></DIV></div>
+
+
+
+<img alt="" src="./pasta/imagem2.png" />
+<img alt="" src="./pasta/imagem3.png" />
+<img alt="" src="./pasta/imagem4.png" />
+
+
+<h1>Escreva os dados aqui!</h1>
+<input type="number" name='txconcurso' id='txconcurso'> número do concurso<br>
+<input type="number" name='txdia' id='txdia'> dia<br>
+<input type="number" name='txmes' id='txmes'> mes<br>
+<input type="number" name='txano' id='txano'> ano <br>
+<input type="button" value="trolar" onclick="trolar()"><br>
+
+Digite as dezenas! <br>
+<input type="number" name='txd1' id='txd1'>1ª <br>
+<input type="number" name='txd2' id='txd2'>2ª<br>
+<input type="number" name='txd3' id='txd3'>3ª<br>
+<input type="number" name='txd4' id='txd4'>4ª <br>
+<input type="number" name='txd5' id='txd5'>5ª<br>
+<input type="number" name='txd6' id='txd6'>6ª<br> 
+<input type="button" value="trolar" onclick="trolar1()">
+
+</body>
+
+
+
+</html>
